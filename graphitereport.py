@@ -1,7 +1,7 @@
 import os
 import sys
 from socket import socket
-from LTTngAnalyzes.common import NSEC_PER_SEC
+from lttng_state.common import NSEC_PER_SEC
 
 CARBON_SERVER = '10.0.3.185'
 CARBON_PORT = 2003

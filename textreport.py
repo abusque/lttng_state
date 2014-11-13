@@ -1,4 +1,4 @@
-from LTTngAnalyzes.common import NSEC_PER_SEC, MSEC_PER_NSEC, convert_size
+from lttng_state.common import NSEC_PER_SEC, MSEC_PER_NSEC, convert_size
 import operator
 
 

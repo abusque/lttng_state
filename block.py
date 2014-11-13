@@ -1,4 +1,4 @@
-from LTTngAnalyzes.common import Process, get_disk
+from lttng_state.common import Process, get_disk
 
 
 class Block():

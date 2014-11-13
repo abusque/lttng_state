@@ -1,4 +1,4 @@
-from LTTngAnalyzes.common import FDType, FD, MSEC_PER_NSEC, \
+from lttng_state.common import FDType, FD, MSEC_PER_NSEC, \
     ns_to_hour_nsec, ns_to_sec, Syscall, O_CLOEXEC, seq_to_ipv4, Process
 import socket
 import operator

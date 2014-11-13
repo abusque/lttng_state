@@ -1,5 +1,5 @@
 from babeltrace import CTFScope
-from LTTngAnalyzes.common import Process, CPU, FD
+from lttng_state.common import Process, CPU, FD
 
 
 class Sched():

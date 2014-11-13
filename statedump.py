@@ -1,4 +1,4 @@
-from LTTngAnalyzes.common import Process, FD, get_disk
+from lttng_state.common import Process, FD, get_disk
 
 
 class Statedump():

@@ -1,4 +1,4 @@
-from LTTngAnalyzes.common import ns_to_hour_nsec
+from lttng_state.common import ns_to_hour_nsec
 
 
 class Mm():

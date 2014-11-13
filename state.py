@@ -1,6 +1,6 @@
-from LTTngAnalyzes.sched import Sched
-from LTTngAnalyzes.statedump import Statedump
-from LTTngAnalyzes.syscalls import Syscalls
+from lttng_state.sched import Sched
+from lttng_state.statedump import Statedump
+from lttng_state.syscalls import Syscalls
 
 
 class State():

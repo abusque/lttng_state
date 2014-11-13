@@ -1,5 +1,5 @@
-from LTTngAnalyzes.common import Iface, FDType
-from LTTngAnalyzes.syscalls import Syscalls
+from lttng_state.common import Iface, FDType
+from lttng_state.syscalls import Syscalls
 
 
 class Net():

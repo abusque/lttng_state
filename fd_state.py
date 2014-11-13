@@ -1,7 +1,7 @@
 from collections import OrderedDict
-from LTTngAnalyzes.common import FDType
-from LTTngAnalyzes.state import State
-from LTTngAnalyzes.syscalls import Syscalls
+from lttng_state.common import FDType
+from lttng_state.state import State
+from lttng_state.syscalls import Syscalls
 
 
 class FDState():

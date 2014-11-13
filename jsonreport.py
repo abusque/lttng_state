@@ -1,4 +1,4 @@
-from LTTngAnalyzes.common import NSEC_PER_SEC
+from lttng_state.common import NSEC_PER_SEC
 import json
 
 
