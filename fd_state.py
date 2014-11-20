@@ -11,10 +11,22 @@ class FDState():
 
         self.fd_events = []
         self.pid_metadata = {}
+        self.on_before_event = None
+        self.on_after_event = None
+        self.on_after_processing = None
 
     def run(self):
         for event in self.traces.events:
+            if self.on_before_event is not None:
+                self.on_before_event(event)
+
             self.process_event(event)
+
+            if self.on_after_event is not None:
+                self.on_after_event(event, self.state)
+
+        if self.on_after_processing is not None:
+            self.on_after_processing(self.state)
 
     def process_event(self, event):
         if event.name == 'sched_switch':
